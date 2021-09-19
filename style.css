@@ -7,6 +7,9 @@ body {
     margin: 0;
     font-size: 30px;
     box-shadow: 5px 5px 18px rgb(111, 6, 172);
+    /* background-color: rgb(245, 109, 245);*/
+    background: linear-gradient(purple 0%,pink 100%);
+     color: white;
 }
 
 .heading_div {
@@ -21,4 +24,24 @@ body {
 .heading_div2{
     font-size: 18px;
     color:black;
+}
+.result_para_tag{
+    background-color: rgb(93, 255, 93);
+    font-size: 20px;
+    box-shadow: 5px 5px 28px orangered;
+ 
+}
+.copyright_footer{
+    background: aqua;
+    bottom:0;
+    position: fixed;
+    width: 100%;
+    line-height: 2;
+    font-size: 20px;
+}
+canvas{
+    border-radius: 20px;
+    box-shadow: 5px 5px 28px indigo;
+    border:5px solid white;
+    margin-top:250px;
 }
